@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1093</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Trabalho APS 12/2022</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/icons8-fotografia-16.png</normaloff>icons/icons8-fotografia-16.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="fecharSistema">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #dc3545;
+	color: white;
+	border-color: black;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #dc3545;
+	color: white;
+	border-color: black;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Fechar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Processamento de Imagem</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tableProcessamento">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>279</y>
+      <width>1011</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Propiedades da Imagem</string>
+     </attribute>
+     <widget class="QPushButton" name="largura_altura">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Largura | Altura | Canais</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cores">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Valor Cores</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="azul">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>20</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Alterar para Azul</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gradiente">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>20</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Alterar para Gradiente</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="verde">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>20</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Alterar para Verde</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="verde_2">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>20</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Quadros Amarelos</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Largura | Altura | Canais</string>
+      </property>
+      <widget class="QLabel" name="largura">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altura">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="canais">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>60</y>
+        <width>281</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Valor Cores</string>
+      </property>
+      <widget class="QLabel" name="pixel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>261</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="valorCores">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>261</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Fatiamento e desenho sobre a imagem</string>
+     </attribute>
+     <widget class="QPushButton" name="slicing">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>141</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Técnica Slicing</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="imgDesenho">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Desenhando sobre a Imagem</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>14</y>
+        <width>221</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Texto sobre a Imagem</string>
+      </property>
+      <widget class="QLineEdit" name="textImg">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="textoImage">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #198754;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #198754;
+	color: white;
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Gravar</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Transformaçõese máscaras</string>
+     </attribute>
+     <widget class="QPushButton" name="crop">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Crop</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="resize">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Resize</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tresMascara">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Máscara 3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="flip">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Flip</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="oneMascara">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Máscara 1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="twoMascara">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Máscara 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="rotate">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Rotate</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Sistema de Cores</string>
+     </attribute>
+     <widget class="QPushButton" name="oghl">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>OGHL</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="canaisImage">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Canais Imagem</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="rgb">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>RGB</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Histogramas</string>
+     </attribute>
+     <widget class="QPushButton" name="bgr">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>BGR</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="grafico">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="grafico_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Gráfico 2</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="carregaImage">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>200</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #6c757d;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #6c757d;
+	color: white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Escolher arquivo</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/search.png</normaloff>icons/search.png</iconset>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>480</y>
+      <width>1013</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Suavizaçãode imagens</string>
+     </attribute>
+     <widget class="QPushButton" name="suavidade">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Suavização por cálculo da média</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="suavidade_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Suavização pela Gaussiana</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="suavidade_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>20</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Suavização pela mediana</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="suavidade_4">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>20</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Suavização com filtro bilateral</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Binarização com limiar</string>
+     </attribute>
+     <widget class="QPushButton" name="binarizacao">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Binarização</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="binarizacao_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Threshold adaptativo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="binarizacao_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>20</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Threshold adaptativo</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>Sobel</string>
+     </attribute>
+     <widget class="QPushButton" name="sobel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Sobel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sobel_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string> Filtro Laplaciano</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sobel_3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Detector de bordas Canny</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
+      <string>Identificador e contador de objetos</string>
+     </attribute>
+     <widget class="QPushButton" name="objetos">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #0d6efd;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #0d6efd;
+	color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Indentificador de Objetos</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>201</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Quantidade de Objetos</string>
+      </property>
+      <widget class="QLabel" name="qtdObjetos">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: red;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>44</x>
+      <y>85</y>
+      <width>1001</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="carregaImage_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>80</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: none;
+}
+
+QPushButton:pressed{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: none;
+	color: white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/upload.jpg</normaloff>icons/upload.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>150</width>
+      <height>150</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>1011</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width: 1px;
+border-style:dashed;
+border-color:#2196f3;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>1071</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="tabChangesFocus">
+     <bool>false</bool>
+    </property>
+    <property name="undoRedoEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+    <property name="openLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>textBrowser</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>fecharSistema</zorder>
+   <zorder>label</zorder>
+   <zorder>tableProcessamento</zorder>
+   <zorder>carregaImage</zorder>
+   <zorder>tabWidget</zorder>
+   <zorder>carregaImage_2</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
