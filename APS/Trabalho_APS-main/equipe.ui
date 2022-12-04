@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Equipe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>761</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Equipe de Desenvolvimento</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guilherme Freire</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Jackson</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="fecharSistemaEquipe">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #dc3545;
+	color: white;
+	border-color: black;
+}
+
+QPushButton:hover{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #dc3545;
+	color: white;
+	border-color: black;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Fechar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEquipe_de_Desenvolvimento">
+   <property name="text">
+    <string>Equipe de Desenvolvimento</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
