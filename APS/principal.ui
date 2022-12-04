@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1093</width>
-    <height>705</height>
+    <height>707</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
 	border-color: black;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -107,7 +107,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -143,7 +143,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -179,7 +179,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -215,7 +215,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -251,7 +251,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -287,7 +287,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -425,7 +425,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -461,7 +461,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -519,7 +519,7 @@ QPushButton:pressed{
 	border-color: #198754;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -561,7 +561,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -597,7 +597,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -633,7 +633,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -669,7 +669,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -705,7 +705,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -741,7 +741,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -777,7 +777,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -818,7 +818,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -854,7 +854,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -890,7 +890,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -931,7 +931,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -967,7 +967,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1003,7 +1003,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1038,7 +1038,7 @@ QPushButton:pressed{
 	border-color: #6c757d;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1094,7 +1094,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1130,7 +1130,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1166,7 +1166,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1202,7 +1202,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1243,7 +1243,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1279,7 +1279,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1315,7 +1315,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1356,7 +1356,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1392,7 +1392,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1428,7 +1428,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1469,7 +1469,7 @@ QPushButton:pressed{
 	border-color: #0d6efd;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1546,7 +1546,7 @@ QPushButton:pressed{
 	border-color: none;
 }
 
-QPushButton:pressed{
+QPushButton:hover{
 	font-size:16px;
 	border-style:solid;
 	border-width: 1px;
@@ -1614,6 +1614,55 @@ border-color:#2196f3;</string>
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="creditos">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	border-color: #6c757d;
+}
+
+QPushButton:hover{
+	font-size:16px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 6;
+	background-color: #6c757d;
+	color: white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Créditos</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="format">
+     <string>%p%</string>
+    </property>
+   </widget>
    <zorder>textBrowser</zorder>
    <zorder>label_3</zorder>
    <zorder>label_2</zorder>
@@ -1623,8 +1672,15 @@ border-color:#2196f3;</string>
    <zorder>carregaImage</zorder>
    <zorder>tabWidget</zorder>
    <zorder>carregaImage_2</zorder>
+   <zorder>creditos</zorder>
+   <zorder>progressBar</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEquipe">
+   <property name="text">
+    <string>Equipe</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
