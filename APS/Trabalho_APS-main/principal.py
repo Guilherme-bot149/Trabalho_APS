@@ -3,7 +3,7 @@
 from PyQt5 import QtCore, QtGui, uic, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from matplotlib import pyplot as plt
-# import mahotas
+import mahotas
 import time
 from tqdm import tqdm
 import cv2
